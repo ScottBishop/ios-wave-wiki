@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "682273BF65CB95EE4B95466A84F4671DA45186F7",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "682273BF65CB95EE4B95466A84F4671DA45186F7" : 9223372036854775807,
+    "EDE978B054832EB498028C3CC646998BE3FB2B78" : 9223372036854775807
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "72C15BA9-BF3D-4A07-9E50-F37CFC782B04",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "682273BF65CB95EE4B95466A84F4671DA45186F7" : "WaveWiki\/",
+    "EDE978B054832EB498028C3CC646998BE3FB2B78" : "friendlychat\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "WaveWiki",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "WaveWiki.xcworkspace",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/ScottBishop\/ios-wave-wiki.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "682273BF65CB95EE4B95466A84F4671DA45186F7"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/firebase\/friendlychat",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "EDE978B054832EB498028C3CC646998BE3FB2B78"
+    }
+  ]
+}

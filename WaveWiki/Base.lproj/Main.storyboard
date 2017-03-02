@@ -98,7 +98,7 @@
                                             <action selector="signOut:" destination="o87-ls-77Z" eventType="touchUpInside" id="2kn-TA-R1K"/>
                                         </connections>
                                     </button>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Friendly Chat" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="N1u-T5-hbc">
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Wave Wiki" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="N1u-T5-hbc">
                                         <rect key="frame" x="0.0" y="3" width="200" height="36"/>
                                         <constraints>
                                             <constraint firstAttribute="width" constant="200" id="Y1q-7b-89p"/>
@@ -110,7 +110,7 @@
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nSD-DQ-ndU">
                                         <rect key="frame" x="234" y="-6" width="41" height="30"/>
                                         <state key="normal" title="Crash">
-                                            <color key="titleColor" red="0.0" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
                                         </state>
                                         <connections>
                                             <action selector="didPressCrash:" destination="o87-ls-77Z" eventType="touchUpInside" id="K3g-3d-cGW"/>
@@ -118,7 +118,9 @@
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bgS-Eo-qWY">
                                         <rect key="frame" x="210" y="16" width="88" height="30"/>
-                                        <state key="normal" title="Fresh Config"/>
+                                        <state key="normal" title="Fresh Config">
+                                            <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
+                                        </state>
                                         <connections>
                                             <action selector="didPressFreshConfig:" destination="o87-ls-77Z" eventType="touchUpInside" id="7Ty-Vl-okD"/>
                                         </connections>
@@ -133,7 +135,7 @@
                                         </connections>
                                     </button>
                                 </subviews>
-                                <color key="backgroundColor" red="1" green="0.5" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="backgroundColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
                                     <constraint firstItem="nSD-DQ-ndU" firstAttribute="centerX" secondItem="bgS-Eo-qWY" secondAttribute="centerX" id="4wt-fz-EK7"/>
                                     <constraint firstItem="nSD-DQ-ndU" firstAttribute="top" secondItem="goX-mc-8Op" secondAttribute="top" constant="-6" id="Lov-FS-5Rn"/>
